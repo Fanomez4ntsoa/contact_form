@@ -90,8 +90,8 @@ form .button-area {
 	margin: 25px 0;
 }
 .button-area button {
-	padding: 13px 25px;
-	font-size: 18px;
+	padding: 10px 20px;
+	font-size: 14px;
 	border: none;
 	background: darkslategray;
 	border-radius: 5px;
@@ -101,4 +101,32 @@ form .button-area {
 .button-area span {
 	color: darkslategray;
 	margin-left: 30px;
+	font-size: 15.5px;
+}
+
+@media (max-width: 600px) {
+	.wrapper header {
+		text-align: center;
+	}
+	form .dbl-field {
+		margin-bottom: 0px;
+		flex-direction: column;
+	}
+	.dbl-field .field {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	form .message textarea {
+		resize: none;
+	}
+	form .button-area {
+		flex-direction: column;
+	}
+	.button-area button {
+		width: 100% ;
+	}
+	.button-area span {
+		text-align: center;
+		margin: 20px 0;
+	}
 }
