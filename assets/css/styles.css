@@ -100,8 +100,9 @@ form .button-area {
 }
 .button-area span {
 	color: darkslategray;
-	margin-left: 30px;
+	text-align: center;
 	font-size: 15.5px;
+	display: none;
 }
 
 @media (max-width: 600px) {
@@ -124,9 +125,5 @@ form .button-area {
 	}
 	.button-area button {
 		width: 100% ;
-	}
-	.button-area span {
-		text-align: center;
-		margin: 20px 0;
 	}
 }
